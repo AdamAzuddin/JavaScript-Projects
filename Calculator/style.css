@@ -1,0 +1,61 @@
+
+body{
+    font-family: "Open Sans",sans-serif;
+}
+#display_num{
+    font-size: 60px;
+}
+
+#container{
+    text-align: center; 
+    font-size: 25px; 
+    margin-bottom: 10px; 
+    background: white;
+    height: 100px;
+}
+
+.grid_container{
+    display: grid;
+    gap: 1%;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: auto auto auto auto auto;
+    
+}
+
+#grid_item{
+    margin: 1%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+}
+
+button{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    background: white;
+    outline: none;
+    margin: 0px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+button:hover{
+    transition: ease-in;
+    background: rgb(199, 199, 199);
+}
+button:active{
+    background: rgb(160, 160, 160);
+}
+.equal{
+    background: blue;
+    color: white;
+}
+.equal:hover{
+    transition: ease-in;
+    background: rgb(142, 142, 253);
+}
+
