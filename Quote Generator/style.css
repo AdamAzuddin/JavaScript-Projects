@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body{
+    background: rgba(63, 46, 33, 0.589);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main{
+    margin-top: 35px;
+    background: rgb(211, 198, 189);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    width: 420px;
+    height: 420px;
+    font-style: italic;
+}
+
+.quote-btn{
+    background: rgb(39, 140, 223);
+    height: 35px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.quote-btn:hover{
+    background-color: rgba(39,140,223,0.8);
+}
+.quote{
+    margin-top: 60px;
+    margin-left: 150px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.author{
+    float: right;
+    margin-top: 25px;
+    font-size: 20px;
+}
