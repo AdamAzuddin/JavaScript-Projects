@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "version":"1.0",
+    "name":"To do list app",
+    "action":{
+        "default_popup": "index.html",
+        "default_icon": "to do list logo.png"
+    },
+    "permissions":[
+        "tabs"
+    ]
+}
